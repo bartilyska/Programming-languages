@@ -1,0 +1,362 @@
+V "GNAT Lib v13"
+M P W=b
+A -O0
+A -gnatA
+A -g
+A -mtune=generic
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV MAX_SELECT_ALTERNATIVES=5
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+
+U simulator%b		simulator.adb		399cedff NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.arith_64%s	s-arit64.adb		s-arit64.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.concat_8%s	s-conca8.adb		s-conca8.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.img_decimal_128%s  s-imde128.ads	s-imde128.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20231201181426 76789da1 ada%s
+D a-assert.ads		20231201181426 ba465f5c ada.assertions%s
+D a-calend.ads		20231201181426 f55c50a3 ada.calendar%s
+D a-caldel.ads		20231201181426 9f20b83d ada.calendar.delays%s
+D a-charac.ads		20231201181426 2d3ec45b ada.characters%s
+D a-chlat1.ads		20231201181426 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20231201181426 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20231201181426 bf4f806b ada.finalization%s
+D a-inteio.ads		20231201181426 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20231201181426 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20231201181426 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20231201181426 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20231201181426 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nudira.ads		20231201181426 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20231201181426 0bfd6ec4 ada.numerics.discrete_random%b
+D a-reatim.ads		20231201181426 b89a10c3 ada.real_time%s
+D a-stream.ads		20231201181426 119b8fb3 ada.streams%s
+D a-string.ads		20231201181426 90ac6797 ada.strings%s
+D a-strmap.ads		20231201181426 ed8acfdb ada.strings.maps%s
+D a-sttebu.ads		20231201181426 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20231201181426 7bfb7010 ada.strings.unbounded%s
+D a-stuten.ads		20231201181426 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20231201181426 9eaa38c6 ada.tags%s
+D a-textio.ads		20231201181426 5c2c6153 ada.text_io%s
+D a-tiinio.ads		20231201181426 e58fa6fb ada.text_io.integer_io%s
+D a-unccon.ads		20231201181426 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20231201181426 15f799c2 interfaces%s
+D i-c.ads		20231201181426 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20231201181426 f40c8db4 interfaces.c.strings%s
+D i-cstrea.ads		20231201181426 e53d8b8e interfaces.c_streams%s
+D simulator.adb		20241024210018 5153849d simulator%b
+D system.ads		20231201181426 f0509fe6 system%s
+D s-atacco.ads		20231201181426 903317eb system.address_to_access_conversions%s
+D s-arit64.ads		20231201181426 90488c35 system.arith_64%s
+D s-assert.ads		20231201181426 9c4520c7 system.assertions%s
+D s-atocou.ads		20231201181426 dc18efc3 system.atomic_counters%s
+D s-casuti.ads		20231201181426 cf13d755 system.case_util%s
+D s-conca2.ads		20231201181426 b5fb73f7 system.concat_2%s
+D s-conca4.ads		20231201181426 33f85f3e system.concat_4%s
+D s-conca5.ads		20231201181426 4099d1db system.concat_5%s
+D s-conca6.ads		20231201181426 8252f108 system.concat_6%s
+D s-conca8.ads		20231201181426 8d8f50c1 system.concat_8%s
+D s-crtl.ads		20231201181426 8a0692f8 system.crtl%s
+D s-exctab.ads		20231201181426 91bef6ef system.exception_table%s
+D s-ficobl.ads		20231201181426 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20231201181426 bd688734 system.finalization_masters%s
+D s-finroo.ads		20231201181426 4ff27390 system.finalization_root%s
+D s-imaged.ads		20231201181426 13371993 system.image_d%s
+D s-imagei.ads		20231201181426 c707dfd0 system.image_i%s
+D s-imageu.ads		20231201181426 631c6ed0 system.image_u%s
+D s-imde128.ads		20231201181426 4c526c0b system.img_decimal_128%s
+D s-imgint.ads		20231201181426 d4a52a9b system.img_int%s
+D s-imguns.ads		20231201181426 7867236f system.img_uns%s
+D s-memory.ads		20231201181426 5b8432d0 system.memory%s
+D s-multip.ads		20231201181426 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20231201181426 97504df8 system.os_interface%s
+D s-parame.ads		20231201181426 d494a4a6 system.parameters%s
+D s-putima.ads		20231201181426 17291fe4 system.put_images%s
+D s-rannum.ads		20231201181426 95815eca system.random_numbers%s
+D s-rannum.adb		20231201181426 0f2dcb9a system.random_numbers%b
+D s-ransee.ads		20231201181426 01a57b33 system.random_seed%s
+D s-retsta.ads		20231201181426 0f6b06cb system.return_stack%s
+D s-secsta.ads		20231201181426 578279f5 system.secondary_stack%s
+D s-soflin.ads		20231201181426 df77073e system.soft_links%s
+D s-stache.ads		20231201181426 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20231201181426 5be75682 system.stack_usage%s
+D s-stalib.ads		20231201181426 1c9580f6 system.standard_library%s
+D s-stalib.adb		20231201181426 eb464a47 system.standard_library%b
+D s-stoele.ads		20231201181426 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20231201181426 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20231201181426 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20231201181426 f7dfd786 system.stream_attributes%s
+D s-tasinf.ads		20231201181426 601f6b72 system.task_info%s
+D s-taspri.ads		20231201181426 a1350802 system.task_primitives%s
+D s-taprop.ads		20231201181426 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20231201181426 0ec7ab0b system.tasking%s
+D s-taprob.ads		20231201181426 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20231201181426 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20231201181426 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20231201181426 cca55c94 system.tasking.stages%s
+D s-traent.ads		20231201181426 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20231201181426 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20231201181426 1f610d7a system.val_int%s
+D s-valuns.ads		20231201181426 e8a1f424 system.val_uns%s
+D s-valuti.ads		20231201181426 fcd603d8 system.val_util%s
+D s-valuei.ads		20231201181426 11081e09 system.value_i%s
+D s-vaispe.ads		20231201181426 44130d39 system.value_i_spec%s
+D s-valueu.ads		20231201181426 18770347 system.value_u%s
+D s-vauspe.ads		20231201181426 a67b2f28 system.value_u_spec%s
+D s-wchcon.ads		20231201181426 d9032363 system.wch_con%s
+D s-widuns.ads		20231201181426 866a5800 system.wid_uns%s
+D s-widthu.ads		20231201181426 b32f15e2 system.width_u%s
+D s-win32.ads		20231201181426 15ac53fb system.win32%s
+G a e
+G c Z b b [simulator standard 9 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 31|3r6 3r34 4r6 4r34 5r6 5r34 6r6 7r6 75r37 129r41 133r34 221r18
+. 360r26 417r33
+X 5 a-charac.ads
+16K13*Characters 18e19 31|4r10 4r38
+X 6 a-chlat1.ads
+16K24*Latin_1 294e27 31|4w21 4r49
+51e4*ESC{character} 31|91r10 92r53 102r25 102r130 108r13 110r43 155r10 156r10
+. 165r23 165r127 167r23 169r52 183r21 183r67 188r23 188r74 191r26 191r58
+. 269r25 269r200 276r25 276r129 288r28 288r96 362r17 362r55 370r19 372r44
+. 379r19 381r44 391r19 393r56 403r19 404r50
+X 9 a-inteio.ads
+18K13*Integer_Text_IO[25|46] 31|6w10
+X 11 a-numeri.ads
+16K13*Numerics 35e17 31|7r10 75r41 129r45 133r38
+X 14 a-nudira.ads
+44k22*Discrete_Random 81e33 31|7w19 75r50 129r54 133r47
+50R9 Generator<59|65R9> 31|77r45[75] 136r44[129] 137r37[133]
+52V13 Random{integer} 31|98s52[75] 159s32[129] 160s35[133]
+61U14 Reset<59|103p14> 31|85s25[75] 149s29[129] 150s22[133]
+X 15 a-nudira.adb
+53V16 Random[59|86]{integer} 60|402b13[31|129]
+65V16 Random[59|86]{integer} 60|402b13[31|129]
+X 18 a-string.ads
+16K13*Strings 35e16 31|5r10 5r38
+X 21 a-strunb.ads
+85K21*Unbounded 766e26 31|5w18 5r46
+91R9*Unbounded_String<8|43R9> 745e15 31|25r44 29r43
+108V13*To_Unbounded_String{91R9} 31|26s7 26s38 26s69 26s98 26s138 30s7 30s48
+. 30s85
+121V13*To_String{string} 31|92s10 102s59 109s13 165s92 168s40 352s16 371s19
+. 380s19 392s19 404s19
+X 24 a-textio.ads
+58K13*Text_IO 787e16 31|3w10 3r38 221r22 360r30 417r37
+66P9*File_Type 31|221r30
+68n32*Out_File{68E9} 31|360r38
+68n42*Append_File{68E9} 31|417r45
+98U14*Create 31|360s7
+114U14*Open 31|417s17
+130U14*Close 31|361s7 426s17
+555U14*Put_Line 31|418s17 419s17 420s17 421s17 422s17 423s17 424s17 425s17
+566U14*Put_Line 31|90s7 102s16 107s10 118s16 154s7 165s14 167s14 183s12 188s13
+. 191s16 269s16 276s16 288s17 350s13 354s10 362s7 369s16 378s16 390s16 402s16
+X 27 interfac.ads
+56I9*Integer_64<long_long_integer>
+80M9*Unsigned_32
+83M9*Unsigned_64
+X 31 simulator.adb
+9U11*Simulator 9b11 449l5 449t14
+13i4 Cook_Count{integer} 20r40 65r20 438r18
+14i4 Meal_Count{integer} 21r40
+15i4 Customer_Count{integer} 22r44 66r20 143r30 441r18
+18o4 Delay_Factor{duration} 106r30 119r28 159r45 187r34
+20I12 Cooks{integer} 25r34 37r30 54r29 62r46 83r31 204r43 206r40 208r33 213r27
+. 225r23 226r29 232r18 246r19 256r36 258r22 274r22 286r18 295r51 300r34 316r54
+. 316r68 323r35 328r40 339r19 349r19 366r33 394r25 429r53
+21I12 Meals{integer} 29r33 56r32 134r10 206r33 209r33 248r22 260r25 337r36
+. 387r36
+22I12 Customers{integer} 43r31 138r25 147r31
+25a4 Dish_Names(21|91R9) 92r20 102r69 109r23 352r26 371r29 380r29
+29a4 Meal_Names(21|91R9) 165r102 168r50 392r29 404r29
+36T14 Cook 38l8 38e12 65r35 73b14 123l8 123t12
+37Y13 Start 37>20 37>37 83b14 89l11 89t16 439s13
+37i20 Dish{20I12} 87r30
+37i37 Cooking_Time{integer} 88r31
+41T14 Customer 44l8 44e16 66r39 127b14 172l8 172t16
+42Y13 Start 43>10 43>42 146b14 153l11 153t16 442s13
+43i10 Consumer_Number{22I12} 151r25
+43i42 Consumption_Time{integer} 152r25
+47t9 Cleaning 175b14 196l8 196t16 444r5
+48Y15 Start 48>21 181b15 184l12 184t17 444s14
+48i21 Cleaning_Day_When{integer} 182r28
+52T14 Kitchen 63l8 63e15 67r8 201b14 434l8 434t15
+54Y13 Take 54>19 54>36 114s18 366b17 384l14 384t18
+54i19 Dish{20I12} 368r76 368r84 368r106 371r41 373r33 373r59 380r41
+54i36 Number{integer} 372r34 381r34
+56Y13 Deliver 56>22 56<39 162s12 387b17 408l14 408t21
+56i22 Meal{21I12} 389r29 392r41 393r47 395r78 396r77 398r59 399r29 399r51
+. 404r41
+56i39 Number{integer} 398m16 398r16 405m16 405r16
+58Y13 Cleaning_Day 192s18 411b20 413l17 413t29
+60Y13 Print_Stats 416b20 427l17 427t28 447s11
+62Y13 Check_Kitchen_Threshold 62>37 62<53 97s15 429b20 431l17 431t40
+62i37 Dish{20I12} 430r48
+62b53 Can_Accept{boolean} 430m16 430r16
+65a4 P(36T14) 439r7
+66a4 K(41T14) 442r7
+67t4 B{52T14} 97r13 114r16 162r10 192r16 447r9
+74I15 Cooking_Time_Range{integer} 76r10
+75K15 Random_Cooking[14|44] 77r30 85r10 98r37
+77r7 G{14|50R9[75]} 85r32 98r59
+78i7 Cook_Type_Number{integer} 87m10 92r32 97r39 102r80 109r35 114r23
+79i7 Dish_Number{integer} 86m10 110r28 114r41 115m16 115r31
+80i7 Cooking{integer} 88m10
+81o7 Random_Time{duration} 98m13 101m16 101r31 106r16
+83i21 Dish{20I12}
+83i38 Cooking_Time{integer}
+95b13 Can_Safely_Accept{boolean} 97m57 99r20
+128I15 Consumption_Time_Range{integer} 130r10
+129K15 Random_Consumption[14|44] 136r25 149r10 159r13
+133K15 Random_Meal[14|44] 137r25 150r10 160r23
+136r7 G{14|50R9[129]} 149r36 159r40
+137r7 GA{14|50R9[133]} 150r29 160r43
+138i7 Consumer_Nb{22I12} 151m10 155r64 165r60 167r60
+139i7 Meal_Number{integer} 162m32 164r13 169r37
+140i7 Consumption{integer} 152m10
+141i7 Meal_Type{integer} 160m10 162r21 165r113 168r61
+142a7 Consumer_Name(string) 155r49 165r46 167r46
+147i10 Consumer_Number{22I12}
+147i42 Consumption_Time{integer}
+176i8 Cleaning_Day{integer} 182m12 189r31
+177i8 Day_Number{integer} 188r60 189r16 194m13 194r27
+178o8 Day_Duration{duration} 187r19
+181i21 Cleaning_Day_When{integer}
+202i7 Kitchen_Counter_Capacity{integer} 268r16 269r89 273r34 312r42 325r36
+203E12 Stat 203e31 218r26 220r25
+203n21 Hit{203E12} 375r27 375r46 400r27 400r46 419r79 421r80 421r115 423r79
+. 425r80 425r115
+203n26 Miss{203E12} 382r28 382r48 406r28 406r48 420r81 421r133 424r81 425r133
+204A12 Kitchen_Counter_type(integer)<integer> 205r38
+205a7 Kitchen_Counter{204A12} 233r50 287r16 289m17 289r39 302r12 305m9 305r34
+. 330r13 340r16 351r66 373m16 373r42 395m19 395r42
+206a7 Meal_Content(integer) 249r19 250r43 261r62 340r38 395r64 396r63
+208a7 Max_Meal_Content(integer) 233r28 247m13 249r41 250m19
+209a7 Meal_Number(integer) 393r34 398r46 399m16 399r38
+210i7 In_Kitchen_Counter{integer} 290m17 290r39 306m9 306r31 312r20 325r15
+. 356r28 374m16 374r45 396m19 396r42
+213a7 Thresholds(integer) 275m16 276r112 330r37
+216D12 Stat_Counter 218r35 220r34 419r49 420r51 421r50 421r87 423r49 424r51
+. 425r50 425r87
+218a7 Dish_Stats(216D12) 375m16 375r35 382m17 382r37 419r68 420r70 421r69
+. 421r104 421r122
+220a7 Meal_Stats(216D12) 400m16 400r35 406m17 406r37 423r68 424r70 425r69
+. 425r104 425r122
+221p7 Stat_File{24|66P9} 360m15 360r15 361m13 361r13 417m22 417r22 418r27
+. 419r27 420r27 421r27 422r27 423r27 424r27 425r27 426m23 426r23
+225a7 Priority(integer) 233m13 234r16 235r36
+226i7 Lowest_Priority_Cook{20I12} 236m17 297r16
+229U17 RecalculatePriority 229b17 239l11 239t30 319s9 376s16
+230i9 Lowest_Priority{integer} 234r30 235m17
+232i13 P{20I12} 233r22 233r45 233r66 234r25 235r45 236r41
+241U17 Setup_Variables 241b17 280l11 280t26 363s7
+242i10 Total_Expected_Demand{integer} 263m16 263r41 267r67 273r68
+243f10 Multiplier{float} 273m13 275r69
+244i10 Theoretically_Optimal_Kitchen_Size{integer} 267m13 268r43 269r162
+246i14 W{20I12} 247r31 249r36 249r59 250r37 250r60
+248i17 Z{21I12} 249r33 250r57
+256a13 Expected_Demand(integer) 259m16 261m19 261r41 263r65 275r47
+258i17 W{20I12} 259r32 261r35 261r57 261r78 263r81
+260i20 Z{21I12} 261r75
+274i17 W{20I12} 275r27 275r63 276r86 276r123
+283U17 Today_Is_Cleaning_Day 283b17 293t10 412s17
+284i9 Cleaning_Day_Takes{integer} 287r38 289r60 290r60
+286i13 P{20I12} 287r32 288r91 289r33 289r55
+295V16 Find_Max_In_Kitchen_Counter{20I12} 295b16 298l11 298t38 318s20 320s16
+300U17 RemoveItem 300b17 300>28 307t10 318s9
+300i28 Cook{20I12} 302r28 305r25 305r50
+310V16 ShouldCleanup{boolean} 310b16 313t12 368s21
+316V16 CleanupRedundantKitchen_Counter{20I12} 316b16 316>48 321t10 368s44
+316i48 Cook{20I12}
+323V16 Can_Accept{boolean} 323b16 323>28 326l11 326t21 368s94
+323i28 Dish{20I12}
+328V16 Can_Safely_Accept{boolean} 328b16 328>34 335l11 335t28 430s30
+328i34 Dish{20I12} 330r29 330r48
+337V16 Can_Deliver{boolean} 337b16 337>29 345l11 345t22 389s16
+337i29 Meal{21I12} 340r52
+339i14 W{20I12} 340r33 340r58
+347U17 Kitchen_Counter_Contents 347b17 357l11 357t35 385s10 409s10 414s13
+349i14 W{20I12} 351r83 352r38
+366i23 Dish{20I12}
+366i40 Number{integer}
+387i26 Meal{21I12}
+387i43 Number{integer}
+394i20 W{20I12} 395r36 395r59 395r84 396r83
+429i44 Dish{20I12}
+429b60 Can_Accept{boolean}
+438i8 I{integer} 439r10 439r20
+441i8 J{integer} 442r10 442r20
+X 32 system.ads
+67M9*Address
+X 34 s-arit64.ads
+59I12*Int64{27|56I9}
+92V13*Multiply_With_Ovflo_Check64{59I12} 96i<c,__gnat_mulv64>22
+X 54 s-memory.ads
+51V13*Alloc{32|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{32|67M9} 103i<c,__gnat_realloc>22
+X 59 s-rannum.ads
+77V13*Random{27|80M9} 60|224i21
+78V13*Random{27|83M9} 60|224i21
+X 66 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 68 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+
